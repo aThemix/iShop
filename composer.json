@@ -2,7 +2,7 @@
   "autoload": {
     "psr-4": {
       "ishop\\": "vendor/ishop/core",
-      "app\\": "app"
+      "\\": "app"
     }
   },
   "require": {}

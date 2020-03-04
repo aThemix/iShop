@@ -6,7 +6,8 @@ class MainController extends AppController
 {
     public function indexAction()
     {
-        debug($this->route);
-        echo __METHOD__;
+        $this->setMeta('Главная страница', 'Описание', 'Ключевики...');
+
+        $this->set(['name' => 'Anton', 'age' => 34]);
     }
 }

@@ -42,3 +42,27 @@
 ===================
 [2020-02-29 22:17:20]Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\ishop2.loc\public\index.php | Строка: 8
 ===================
+[2020-03-04 19:16:27]Текст ошибки: Maximum function nesting level of '256' reached, aborting! | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 36
+===================
+[2020-03-04 19:16:34]Текст ошибки: Maximum function nesting level of '256' reached, aborting! | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 36
+===================
+[2020-03-04 19:16:43]Текст ошибки: Maximum function nesting level of '256' reached, aborting! | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 36
+===================
+[2020-03-04 19:17:11]Текст ошибки: Maximum function nesting level of '256' reached, aborting! | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 36
+===================
+[2020-03-04 19:17:14]Текст ошибки: Maximum function nesting level of '256' reached, aborting! | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 36
+===================
+[2020-03-04 19:18:01]Текст ошибки: Function name must be a string | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 38
+===================
+[2020-03-04 19:28:01]Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32
+===================
+[2020-03-04 19:28:40]Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32
+===================
+[2020-03-04 19:49:19]Текст ошибки: Class 'app\controllers\PageNewController' not found | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32
+===================
+[2020-03-04 19:49:41]Текст ошибки: Class 'ishop\slelf' not found | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 33
+===================
+[2020-03-04 19:49:58]Текст ошибки: Call to undefined method ishop\Router::loweCamelCase() | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 33
+===================
+[2020-03-04 19:52:08]Текст ошибки: Контроллер app\controllers\PageNewController не найден | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 40
+===================

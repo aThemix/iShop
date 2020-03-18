@@ -1,2 +1,4 @@
 [2020-03-18 15:38:46] Текст ошибки: syntax error, unexpected 'endif' (T_ENDIF), expecting end of file | Файл: D:\OSPanel\domains\ishop2.loc\app\views\Main\index.php | Строка: 42
 =================
+[2020-03-18 16:18:27] Текст ошибки: Контроллер app\controllers\CartController не найден | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================

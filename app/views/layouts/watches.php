@@ -26,15 +26,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="col-md-6 top-header-left">
                 <div class="drop">
                     <div class="box">
-                        <select tabindex="4" class="dropdown drop">
-                            <option value="" class="label">Dollar :</option>
-                            <option value="1">Dollar</option>
-                            <option value="2">Euro</option>
+                        <select id="currency" tabindex="4" class="dropdown">
+                            <?php new \app\widgets\currency\Currency(); ?>
                         </select>
                     </div>
                     <div class="box1">
-                        <select id="currency" tabindex="4" class="dropdown">
-                            <?php new \app\widgets\currency\Currency(); ?>
+                        <select tabindex="4" class="dropdown">
+                            <option value="" class="label">English :</option>
+                            <option value="1">English</option>
+                            <option value="2">French</option>
+                            <option value="3">German</option>
                         </select>
                     </div>
                     <div class="clearfix"></div>

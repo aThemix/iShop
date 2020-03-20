@@ -2,3 +2,15 @@
 =================
 [2020-03-18 16:18:27] Текст ошибки: Контроллер app\controllers\CartController не найден | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
 =================
+[2020-03-20 21:56:55] Текст ошибки: Too few arguments to function ishop\Registry::setProperty(), 1 passed in D:\OSPanel\domains\ishop2.loc\app\widgets\currency\Currency.php on line 23 and exactly 2 expected | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Registry.php | Строка: 11
+=================
+[2020-03-20 21:57:35] Текст ошибки: Too few arguments to function ishop\Registry::setProperty(), 1 passed in D:\OSPanel\domains\ishop2.loc\app\widgets\currency\Currency.php on line 23 and exactly 2 expected | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Registry.php | Строка: 11
+=================
+[2020-03-20 21:57:51] Текст ошибки: Too few arguments to function ishop\Registry::setProperty(), 1 passed in D:\OSPanel\domains\ishop2.loc\app\widgets\currency\Currency.php on line 23 and exactly 2 expected | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Registry.php | Строка: 11
+=================
+[2020-03-20 21:58:24] Текст ошибки: Too few arguments to function ishop\Registry::setProperty(), 1 passed in D:\OSPanel\domains\ishop2.loc\app\widgets\currency\Currency.php on line 23 and exactly 2 expected | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Registry.php | Строка: 11
+=================
+[2020-03-20 21:58:54] Текст ошибки: Too few arguments to function ishop\Registry::setProperty(), 1 passed in D:\OSPanel\domains\ishop2.loc\app\widgets\currency\Currency.php on line 23 and exactly 2 expected | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Registry.php | Строка: 11
+=================
+[2020-03-20 21:59:47] Текст ошибки: Too few arguments to function ishop\Registry::setProperty(), 1 passed in D:\OSPanel\domains\ishop2.loc\app\widgets\currency\Currency.php on line 23 and exactly 2 expected | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Registry.php | Строка: 11
+=================

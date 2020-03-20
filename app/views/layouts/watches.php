@@ -33,11 +33,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </select>
                     </div>
                     <div class="box1">
-                        <select tabindex="4" class="dropdown">
-                            <option value="" class="label">English :</option>
-                            <option value="1">English</option>
-                            <option value="2">French</option>
-                            <option value="3">German</option>
+                        <select id="currency" tabindex="4" class="dropdown">
+                            <?php new \app\widgets\currency\Currency(); ?>
                         </select>
                     </div>
                     <div class="clearfix"></div>
@@ -313,5 +310,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
     });
 </script>
+<script src="public/js/main.js"></script>
 </body>
 </html>

@@ -14,3 +14,5 @@
 =================
 [2020-03-20 21:59:47] Текст ошибки: Too few arguments to function ishop\Registry::setProperty(), 1 passed in D:\OSPanel\domains\ishop2.loc\app\widgets\currency\Currency.php on line 23 and exactly 2 expected | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Registry.php | Строка: 11
 =================
+[2020-04-25 23:16:28] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================

@@ -38,3 +38,9 @@
 =================
 [2020-04-26 00:50:29] Текст ошибки: Контроллер app\controllers\CartController не найден | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
 =================
+[2020-04-26 02:38:07] Текст ошибки: syntax error, unexpected '}' | Файл: D:\OSPanel\domains\ishop2.loc\app\models\Breadcrumbs.php | Строка: 19
+=================
+[2020-04-26 02:41:22] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2020-04-26 02:41:53] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================

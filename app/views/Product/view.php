@@ -1,14 +1,15 @@
 <!--start-breadcrumbs-->
+<?php if($breadcrumbs): ?>
 <div class="breadcrumbs">
     <div class="container">
         <div class="breadcrumbs-main">
             <ol class="breadcrumb">
-                <li><a href="index.html">Home</a></li>
-                <li class="active">Single</li>
+                <?=$breadcrumbs; ?>
             </ol>
         </div>
     </div>
 </div>
+<?php endif; ?>
 <!--end-breadcrumbs-->
 <!--start-single-->
 <div class="single contact">

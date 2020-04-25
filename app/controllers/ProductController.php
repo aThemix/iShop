@@ -4,6 +4,8 @@
 namespace app\controllers;
 
 
+use app\models\Product;
+
 class ProductController extends AppController
 {
     public function viewAction()
@@ -19,15 +21,21 @@ class ProductController extends AppController
         // связанные товары
         $related = \R::getAll("SELECT * from related_product JOIN product ON product.id = related_product.related_id WHERE related_product.product_id = ?", [$product->id]);
         // запись в куки запрошенного товара
+        $p_model = new Product();
+        $p_model->setRecentlyViewd($product->id);
 
         // просмотренные товары
-
+        $r_viewed = $p_model->getRecentlyViewd();
+        $recentlyViewed = null;
+        if($r_viewed){
+            $recentlyViewed = \R::find('product',"id IN (".\R::genSlots($r_viewed).") LIMIT 3", $r_viewed);
+        }
         // галлерея
         $gallery = \R::findAll('gallery', "product_id = ?", [$product->id]);
         // модификации
 
         $this->setMeta($product->title, $product->description, $product->keywords );
-        $this->set(compact('product', 'related', 'gallery'));
+        $this->set(compact('product', 'related', 'gallery', 'recentlyViewed'));
 
 
     }

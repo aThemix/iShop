@@ -16,3 +16,23 @@
 =================
 [2020-04-25 23:16:28] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
 =================
+[2020-04-25 23:24:03] Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 42
+=================
+[2020-04-25 23:24:15] Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 42
+=================
+[2020-04-25 23:28:18] Текст ошибки: Контроллер app\controllers\ProductController не найден | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2020-04-25 23:39:59] Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\ishop2.loc\app\controllers\ProductController.php | Строка: 14
+=================
+[2020-04-26 00:11:53] Текст ошибки: syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' | Файл: D:\OSPanel\domains\ishop2.loc\app\controllers\ProductController.php | Строка: 32
+=================
+[2020-04-26 00:12:01] Текст ошибки: syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' | Файл: D:\OSPanel\domains\ishop2.loc\app\controllers\ProductController.php | Строка: 32
+=================
+[2020-04-26 00:12:04] Текст ошибки: syntax error, unexpected '}', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' | Файл: D:\OSPanel\domains\ishop2.loc\app\controllers\ProductController.php | Строка: 32
+=================
+[2020-04-26 00:26:23] Текст ошибки: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: D:\OSPanel\domains\ishop2.loc\app\views\Product\view.php | Строка: 258
+=================
+[2020-04-26 00:35:55] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2020-04-26 00:41:07] Текст ошибки: Контроллер app\controllers\CartController не найден | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================

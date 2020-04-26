@@ -56,26 +56,25 @@
                                 <div class="clearfix"> </div>
                             </div>
 
-                            <h5 class="item_price"><?=$curr['symbol_left'];?><?=$product->price * $curr['value'];?><?=$curr['symbol_right'];?></h5>
+                            <h5 class="item_price" id="base-price" data-base="<?=$product->price * $curr['value'];?>">
+                                <?=$curr['symbol_left'];?>
+                                <?=$product->price * $curr['value'];?>
+                                <?=$curr['symbol_right'];?>
+                            </h5>
                             <?php if($product->old_price): ?>
                                 <del><?=$curr['symbol_left'];?><?=$product->old_price * $curr['value'];?><?=$curr['symbol_right'];?></del>
                             <?php endif; ?>
-                            <?=$product->content;?>
+                            <?=$product->content; ?>
                             <div class="available">
                                 <ul>
                                     <li>Color
                                         <select>
-                                            <option>Silver</option>
-                                            <option>Black</option>
-                                            <option>Dark Black</option>
-                                            <option>Red</option>
-                                        </select></li>
-                                    <li class="size-in">Size<select>
-                                            <option>Large</option>
-                                            <option>Medium</option>
-                                            <option>small</option>
-                                            <option>Large</option>
-                                            <option>small</option>
+                                            <option>Выбрать цвет</option>
+                                            <?php foreach ($modes as $mode): ?>
+                                                <option data-title="<?=$mode->title; ?>" data-price="<?=$mode->price * $curr['value']; ?>" value="<?=$mode->id; ?>">
+                                                    <?=$mode->title; ?>
+                                                </option>
+                                            <?php endforeach; ?>
                                         </select></li>
                                     <div class="clearfix"> </div>
                                 </ul>

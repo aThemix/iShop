@@ -44,3 +44,9 @@
 =================
 [2020-04-26 02:41:53] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
 =================
+[2020-04-26 02:50:34] Текст ошибки: syntax error, unexpected ')', expecting '[' | Файл: D:\OSPanel\domains\ishop2.loc\app\views\Product\view.php | Строка: 69
+=================
+[2020-04-26 03:13:36] Текст ошибки: Контроллер app\controllers\CategoryController не найден | Файл: D:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 39
+=================
+[2020-04-26 03:19:29] Текст ошибки: syntax error, unexpected 'debug' (T_STRING), expecting '(' | Файл: D:\OSPanel\domains\ishop2.loc\app\views\Product\view.php | Строка: 73
+=================
